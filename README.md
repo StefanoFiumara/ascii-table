@@ -79,7 +79,7 @@ Console.WriteLine(table);
 
 Result:
 ```
-FirstName | LastName
+FirstName  | LastName
 ========== | =========
 John       | Smith
 Jane       | Doe
