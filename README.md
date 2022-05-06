@@ -38,6 +38,22 @@ Jane      | Doe      | 4321 Phony Ave.
 Billy     | Walters  | 5678 Counterfeit Rd.
 ```
 
+You can use the optional `useIndex` parameter to generate an additional column to display the number of each row:
+```c#
+var table = AsciiTable.Create(people, useIndex: true);
+Console.WriteLine(table);
+```
+
+Result:
+```
+#  | FirstName | LastName | Address
+== | ========= | ======== | ====================
+1  | John      | Smith    | 1234 Fake St.
+2  | Jane      | Doe      | 4321 Phony Ave.
+3  | Billy     | Walters  | 5678 Counterfeit Rd.
+
+```
+
 ### Attributes
 You can use custom attributes in your class definitions to exclude columns, change the header display name, or set a custom order when formatting them into a table.
 
