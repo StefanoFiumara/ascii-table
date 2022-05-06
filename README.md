@@ -1,6 +1,12 @@
 # Fano's ASCII Table Utility
 This is a utility used to format a generic `List<T>` into a pretty ASCII table, useful when the results need to shared on applications that only allow for plain text fields.
 
+## Installation
+This package is available on NuGet:
+* Via CLI: `dotnet add package Fano.ASCIITableUtil --version 1.1.0`
+* Package Reference: `<PackageReference Include="Fano.ASCIITableUtil" Version="1.1.0" />`
+* Package Manager: `PM> Install-Package Fano.ASCIITableUtil -Version 1.1.0`
+
 ## Examples
 ```c#
 public class Person
