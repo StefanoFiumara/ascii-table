@@ -1,5 +1,5 @@
 # Fano's ASCII Table Utility
-This is a utility used to format a generic `List<T>` into a pretty ASCII table, useful when the results need to shared on applications that only allow for plain text fields.
+This is a utility used to format a generic `List<T>` into a pretty ASCII table, useful when formatted data needs to be shared on applications that only allow for plain text input.
 
 ## Installation
 This package is available on NuGet:
