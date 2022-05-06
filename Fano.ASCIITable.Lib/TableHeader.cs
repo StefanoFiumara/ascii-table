@@ -4,13 +4,14 @@ namespace Fano.ASCIITableUtil
 {
     public class TableHeader<T>
     {
-        public string Header { get; }
-        public Func<T, string> PropertySelector { get; }
+        public string Name { get; }
+        public Func<T, string> ValueSelector { get; }
 
-        public TableHeader(string header, Func<T, string> propertySelector)
+        public TableHeader(string name, Func<T, string> valueSelector)
         {
-            Header = header;
-            PropertySelector = propertySelector;
+            Name = name;
+
+            ValueSelector = valueSelector;
         }
     }
 }
