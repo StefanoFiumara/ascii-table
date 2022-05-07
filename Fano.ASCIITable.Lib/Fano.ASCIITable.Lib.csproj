@@ -9,13 +9,12 @@
         <Title>ASCII Table Formatter</Title>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <Description>Utility to format a list of items in an ASCII table, useful for copying the formatted result into applications that only allow text input</Description>
-        <PackageVersion>1.1.0</PackageVersion>
+        <PackageVersion>1.1.1</PackageVersion>
+        <AssemblyName>Fano.ASCIITable</AssemblyName>
     </PropertyGroup>
 
     <ItemGroup>
-      <None Include="..\README.md" Pack="true" PackagePath="\">
-        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-      </None>
+      <None Include="..\README.md" Pack="true" PackagePath="\" />
     </ItemGroup>
 
 </Project>
